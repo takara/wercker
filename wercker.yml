@@ -5,3 +5,7 @@ build:
         name: update
         code: |
             apt-get update
+    - script:
+        name: module install
+        code: |
+            apt-get -y install apache2 php5
