@@ -6,7 +6,6 @@ build:
         code: |
             apt-get update
             apt-get -y install apt-transport-https
-            apt-get -y install init-system-helpers
 #    - script:
 #        name: module install
 #        code: |
