@@ -9,3 +9,8 @@ build:
         name: module install
         code: |
             apt-get -y install apache2 php5 php5-mysql mysql-server
+    - script:
+        name: docker
+        code: |
+            docker
+            
